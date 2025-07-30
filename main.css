@@ -1,0 +1,26 @@
+.container{
+    max-width: 1600px;
+}
+
+body{
+    background: #EBF5FB;
+} 
+.font{
+  font-family: 'Playfair Display', serif; 
+  font-weight: 700;
+}
+
+.font-1{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.ran{
+   background: linear-gradient(180deg,rgba(235, 245, 251, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.run{
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 50%, rgba(235, 245, 251, 1) 50%);
+}
+
+

@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  
+  /* border: 1px solid black; */
+} 
+
+
+.center-image {
+ position: absolute;
+  width: 60px;
+  height: 60px; 
+ top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-40deg);
+  z-index: 1;
+}
+
+.circle-text {
+    border-radius: 50%;
+    /* border: 1px solid black; */
+   width: 200px;
+   height: 200px;
+   /* animation: rotateCircle 10s linear infinite; */
+}
+
+.rotating-group {
+    transform-origin: 150px 150px; /* center of SVG */
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+footer{
+    background: #EBF5FB;
+}
+
+.container{
+    max-width: 1600px;
+}
+
+
+
